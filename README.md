@@ -32,7 +32,6 @@ source .venv/bin/activate
 
 # เปิดใช้งาน (สำหรับ Windows)
 .\.venv\Scripts\activate
-
 ```
 
 ### 3. ติดตั้ง Library ที่จำเป็น
@@ -40,7 +39,6 @@ source .venv/bin/activate
 
 ```
 pip install -r requirements.txt
-
 ```
 
 ### 4. ตั้งค่า API Key (สำคัญที่สุด)
@@ -49,7 +47,6 @@ pip install -r requirements.txt
 ไปที่ Google AI Studio เพื่อสร้าง API Key (หากยังไม่มี)
 ```
 https://aistudio.google.com/api-keys
-
 ```
 
 ### เปิดไฟล์ SR-AI.py 
@@ -59,18 +56,15 @@ https://aistudio.google.com/api-keys
 genai.configure(api_key="GOOGLE_API_KEY")
 # คีย์โมเดล gemini...
 แก้ไข "GOOGLE_API_KEY" ให้เป็น Key จริง ที่นักเรียนคัดลอกมา (เช่น "AIzaSy...xxx")
-
 ```
 
 ### 5. รันโปรแกรม
 หลังจากตั้งค่าทุกอย่างเรียบร้อย สั่งรันโปรแกรม:
 ```
 python SR-AI.py
-
 ```
 ### 6. เปิดใช้งาน
 โปรแกรมจะแสดงผลใน Terminal ของคุณว่า:
 ```
 * Running on local URL: http://127.0.0.1:7860
-
 ```
