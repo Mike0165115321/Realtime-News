@@ -1,0 +1,11 @@
+# --- Core Application ---
+gradio
+google-generativeai
+
+# --- News Scraping ---
+feedparser
+news-please
+newspaper4k[th]
+
+# --- สำหรับใช้กับไฟล์ .env ที่เอาไว้เก็บคีย์ ---
+python-dotenv
